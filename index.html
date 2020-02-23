@@ -1,22 +1,254 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Guide to Kpop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    h1,p{
+       font-family: 'Bubblegum Sans';
+    }
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+      background-color: lightcoral;
+      height: 100%;
+    }
 
-    <!-- Optional JavaScript -->
+    .triangle{
+        font-family: 'Bubblegum Sans';
+        color: yellow;
+    }
+    
+
+    .main{
+        background-color: linen;
+        height: 100%;
+       
+    }
+    .icon{
+        height: 330px;
+        width:  330px;
+    }
+
+    .triangleStyle{
+          width: 0; 
+         height: 0; 
+         border-left: 200px solid transparent;
+         border-right: 200px solid transparent;
+         border-top: 200px solid darkcyan;
+         transform: rotate(170deg);
+    
+    }
+
+    .triangle h2{
+            position: absolute;
+            top: 10%;
+            left: 48%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            text-shadow: 2px 2px black;
+            z-index: 13;
+
+
+
+    }
+
+    .triangle h3{
+         position: absolute;
+         top: 14%;
+         left: 48%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+    
+         font-size: 50px;
+         color: black;
+         background-color: yellow;
+        border: 5px solid black;
+        border-radius: 10px;
+        z-index:12;
+        font-family: 'Press Start 2P';
+        
+    }
+
+    .triLocation{
+         position: absolute;
+         top: 5%;
+         left: 30%;
+         margin-right: -50%;
+         z-index: 12;
+        
+    }
+
+.gi-5x{font-size: 5em;}   
+
+ .ellipsesLocation{
+         position: absolute;
+         top: 25%;
+         left: 50%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+
+  }
+
+  .swiggleLocation1{
+     position: absolute;
+     top: 5%;
+     left: 80%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+
+  }
+
+  .swiggleLocation2{
+     position: absolute;
+     top: 15%;
+     left: 25%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+
+
+
+  }
+  .swiggleLocation3{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .swiggleLocation4{
+    position: absolute;
+    top: 13%;
+    left: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .swiggleLocation5{
+     position: absolute;
+     top: 20%;
+     left: 10%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+    
+  }
+
+  .h1Location{
+    position: absolute;
+     top: 20%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+  }
+
+  .pLocation{
+    text-align: justify;
+    width: 700px;
+    font-size: 20px;
+    position: absolute;
+     top: 32%;
+     left: 53%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+
+  }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 650px){
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+
+      .main{
+           height: auto;
+           width: auto;
+
+      }
+
+      .triangle h2,h3{
+          height: auto;
+          width: auto;
+          position: fixed;
+      }
+
+
+
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <img class="icon" src="./static/homepage/icon.png">
+      <h4>John's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Friends</a></li>
+        <li><a href="#section3">Family</a></li>
+        <li><a href="#section3">Photos</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9 main">
+        <img class="gi-5x swiggleLocation1" src="./static/swiggle1.png">
+        <img class="gi-5x swiggleLocation2" src="./static/swiggle2.png">
+        <img class="gi-5x swiggleLocation3" src="./static/swiggle3.png">
+        <img class="gi-5x swiggleLocation4" src="./static/swiggle4.png">
+        <img class="gi-5x swiggleLocation5" src="./static/swiggle5.png">
+        <img class="gi-5x" src="./static/swiggle6.png">
+        <span class="triangleStyle triLocation">
+        </span>
+        <div class="triangle">
+        <h2>Helpful Guide To </h2>
+        <h3> Kpop </h3>
+        </div>
+        <h1 class="h1Location">A beginner's guide to kpop</h1>
+       <span class=" glyphicon glyphicon-option-horizontal gi-5x ellipsesLocation" ></span>
+       <p class="pLocation">New to Kpop? What to know what Kpop is? What it entails? How long do the members train before debut? What are groups and subunits? What are the rules of being under an entertainment for example is dating against the rules? Here’s a beginner’s guide for everything you need to know about Kpop!</p>
+
+         
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
+</html>
+</body>
 </html>
