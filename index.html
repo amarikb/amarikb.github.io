@@ -11,10 +11,20 @@
 
   <style>
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    h1,p{
+    h1,h4,p,a{
        font-family: 'Bubblegum Sans';
     }
+
     .row.content {height: 1500px}
+
+    .gi-5x{font-size: 5em;}   
+
+    .gi-3x{font-size: 3em;} 
+
+    .gi-2x{font-size: 2em;} 
+
+    .gi-1x{font-size: 1m;} 
+
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -28,6 +38,9 @@
         color: yellow;
     }
     
+    .textColor{
+        color: black;
+    }
 
     .main{
         background-color: linen;
@@ -89,7 +102,68 @@
         
     }
 
-.gi-5x{font-size: 5em;}   
+ .mainPic1{
+         width: 300px;
+         height: 300px;
+
+         position: absolute;
+         top: 48%;
+         left: 30%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+
+  }
+
+.mainPic2{
+         width: 350px;
+         height: 400px;
+
+         position: absolute;
+         top: 50%;
+         left: 70%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+
+  }
+
+  .mainPic3{
+         width: 350px;
+         height: 350px;
+
+         position: absolute;
+         top: 71%;
+         left: 30%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+
+  }
+
+  .mainPic4{
+         width: 500px;
+         height: 230px;
+
+         position: absolute;
+         top: 91%;
+         left: 50%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+
+  }
+
+  .mainPic5{
+         width: 390px;
+         height: 250px;
+
+         position: absolute;
+         top: 73%;
+         left: 70%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+
+  }
+
+  
+
 
  .ellipsesLocation{
          position: absolute;
@@ -163,6 +237,20 @@
      transform: translate(-50%, -50%);
 
   }
+  .buttonLocation{
+     position: absolute;
+     top: 95%;
+     left: 90%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+  }
+
+  .borderStyle{
+    border: 5px solid black;
+    border-radius: 10px;
+  }
+
+
 
     /* Set black background color, white text and some padding */
     footer {
@@ -172,7 +260,7 @@
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 650px){
+    @media all and (max-width: 60%) and (min-width: 30%) {
       .sidenav {
         height: auto;
         padding: 15px;
@@ -202,21 +290,20 @@
   <div class="row content">
     <div class="col-sm-3 sidenav">
       <img class="icon" src="./static/homepage/icon.png">
-      <h4>John's Blog</h4>
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">Home</a></li>
-        <li><a href="#section2">Friends</a></li>
-        <li><a href="#section3">Family</a></li>
-        <li><a href="#section3">Photos</a></li>
+      <h4 class="gi-3x">Topics</h4>
+      <ul class="nav nav-pills nav-stacked gi-2x textColor">
+        <li class="active"><a href="/"> <img src="./static/homepage/heart.png" width="50" height="50" class="d-inline-block align-top" alt="">Home</a></li>
+        <li><a href="about.html"><img src="./static/homepage/ikon.png" width="70" height="70" class="d-inline-block align-top" alt="">What is Kpop?</a></li>
+        <li class="nav-item">
+            <a class="nav-link collapsed text-truncate" href="./kpop.html" data-toggle="collapse" data-target="#submenu1"><i class="fa fa-table"></i> <span class="d-none d-sm-inline"><img src="./static/homepage/light3.png" width="70" height="70" class="d-inline-block align-top" alt=""><span class="glyphicon glyphicon-triangle-bottom gi-1x" ></span>How Kpop Works?</span></a>
+               <div class="collapse" id="submenu1" aria-expanded="false">
+                   <ul class="flex-column pl-2 nav">
+                        <li class="nav-item"><a class="nav-link py-0" href="#"><span>1. Background</span></a></li>
+                   </div>
+        <li><a href="./bias.html" ><img src="./static/homepage/blackpink.png" width="70" height="70" class="d-inline-block align-top" alt="">How to choose a bias?</a></li>
+         <li><a href="./media.html" ><img src="./static/homepage/light7.png" width="70" height="70" class="d-inline-block align-top" alt="">Kpop Media Sites</a></li>
+        <li><a href="./pick.html"><img src="./static/homepage/bigBang.png" width="70" height="70" class="d-inline-block align-top" alt="">My picks</a></li>
       </ul><br>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Blog..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
-      </div>
     </div>
 
     <div class="col-sm-9 main">
@@ -235,12 +322,21 @@
         <h1 class="h1Location">A beginner's guide to kpop</h1>
        <span class=" glyphicon glyphicon-option-horizontal gi-5x ellipsesLocation" ></span>
        <p class="pLocation">New to Kpop? What to know what Kpop is? What it entails? How long do the members train before debut? What are groups and subunits? What are the rules of being under an entertainment for example is dating against the rules? Here’s a beginner’s guide for everything you need to know about Kpop!</p>
-
+       <img src="./static/homepage/bigbang.gif" alt="..." class="img-thumbnail borderStyle mainPic1">
+       
+       <img src="./static/homepage/itzy.jpg" alt="..." class="img-thumbnail borderStyle  mainPic2">
+       
+       <img src="./static/homepage/trainee.jpg" alt="..." class="img-thumbnail borderStyle  mainPic3">
+     
+      
+       <img src="./static/homepage/maxresdefault.jpg" alt="..." class="img-thumbnail borderStyle  mainPic4">
+       <img src="./static/homepage/dance.gif" alt="..." class="img-thumbnail borderStyle mainPic5">
+       <a class="btn btn-primary gi-2x buttonLocation" href="#" role="button">Next</a>
          
 </div>
 
 <footer class="container-fluid">
-  <p>Footer Text</p>
+  <p>Guide to Kpop</p>
 </footer>
 
 <!-- Optional JavaScript -->
