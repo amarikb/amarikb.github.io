@@ -1,0 +1,202 @@
+ h1,
+    h4,
+    p,
+    a {
+      font-family: 'Bubblegum Sans';
+    }
+
+    .row.content {
+      height: 1500px
+    }
+    .gi-6x {
+      font-size: 6em;
+    }
+
+    .gi-5x {
+      font-size: 5em;
+    }
+
+    .gi-4x {
+      font-size: 4em;
+    }
+    .gi-3x {
+      font-size: 3em;
+    }
+
+    .gi-2x {
+      font-size: 2em;
+    }
+
+    .gi-1x {
+      font-size: 1m;
+    }
+
+
+   
+    .sidenav {
+
+      background-color: lightcoral;
+      overflow-x: scroll;
+      height: 100%;
+      position: fixed;
+      z-index: 2;
+      top: 0; 
+      left: 0;
+    }
+
+    .icon{
+        height: 330px;
+        width:  330px;
+    }
+
+    .square {
+      height: 500px;
+      width: 700px;
+      background-color: white;
+      border: 10px double black;
+    }
+
+    .square img{
+      height: 55px;
+      width: 55px;
+    }
+
+    .squareLocation {
+      position: absolute;
+      top: 57%;
+      left: 65%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    }
+    .listLocation{
+      position: absolute;
+      top: 63%;
+      left: 58%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .logoLocation{
+      position: absolute;
+      top: 40%;
+      left: 45%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .h1Location{
+      position: absolute;
+      top: 30%;
+      left: 67%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+
+    }
+
+    .h4Location{
+      position: absolute;
+      top: 38%;
+      left: 70%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+
+    }
+
+    .h1Style{
+      text-shadow: 6px 6px black;
+      color: darkgreen;
+    }
+
+    .h4Style{
+      text-shadow: 1px 1px black;
+    }
+
+    .kImgStyle img{
+      height: 90px;
+      width: 90px;
+
+
+    }
+
+
+    .main {
+      background-color: linen;
+      height: 100%;
+      width: 100%;
+      
+
+    }
+
+    .icon {
+      height: 330px;
+      width: 330px;
+    }
+
+    .backgroundImage {
+      background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-simple-geometric-pop-style-background-windblue-image_69724.jpg");
+      background-size:cover;
+      background-position: 150% 10%;
+      background-repeat: no-repeat;
+
+    }
+
+    
+
+    .forwardButton {
+      position: absolute;
+      top: 95%;
+      left: 90%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .backButton {
+      position: absolute;
+      top: 95%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .textStyle a{
+      color: darkblue;
+      text-shadow: 1px 1px black;
+    }
+
+    body,
+    html,
+    .container-fluid {
+      height: 100%;
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      max-height: 108%;
+    }
+
+    main {
+      max-height: 100%;
+      overflow-y: auto;
+    }
+
+
+    @media all and (max-width: 60%) and (min-width: 30%) {
+      .sidenav{
+        min-width:720px;
+        
+      }
+
+      .main {
+        height: auto;
+        width: auto;
+        overflow-y: auto;
+
+      }
+    
+  }

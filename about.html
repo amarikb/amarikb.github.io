@@ -1,133 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Guide to Kpop</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru&display=swap" rel="stylesheet"> 
+  <link href="./aboutStyle.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    h1,h4,p,a{
-       font-family: 'Bubblegum Sans';
-    }
-
-    .row.content {height: 1500px}
-
-    .gi-5x{font-size: 5em;}   
-
-    .gi-3x{font-size: 3em;} 
-
-    .gi-2x{font-size: 2em;} 
-
-    .gi-1x{font-size: 1m;} 
-
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-
-      background-color: lightcoral;
-      height: 100%;
-    }
-
-
-    .main{
-        background-color: linen;
-        height: 100%;
-       
-    }
-    .icon{
-        height: 330px;
-        width:  330px;
-    }
-  
-   .forwardButton{
-     position: absolute;
-     top: 95%;
-     left: 90%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-  }
-   
-  .backButton{
-     position: absolute;
-     top: 95%;
-     left: 10%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-
-  }
-
-
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media all and (max-width: 60%) and (min-width: 30%) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-
-      .main{
-           height: auto;
-           width: auto;
-
-      }
-
-
-
-    }
-  </style>
 </head>
+
 <body>
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <img class="icon" src="./static/homepage/icon.png">
-      <h4 class="gi-3x">Topics</h4>
-      <ul class="nav nav-pills nav-stacked gi-2x textColor">
-        <li><a href="./index.html"> <img src="./static/homepage/heart.png" width="50" height="50" class="d-inline-block align-top" alt="">Home</a></li>
-        <li class="active"><a href="./about.html"><img src="./static/homepage/ikon.png" width="70" height="70" class="d-inline-block align-top" alt="">What is Kpop?</a></li>
-      
-         <li> <a href="./kpop.html"> <img src="./static/homepage/light3.png" width="70" height="70" class="d-inline-block align-top" alt=""> How Kpop Works?</a>
-              
-        
-        <li><a href="./bias.html"><img src="./static/homepage/blackpink.png" width="70" height="70" class="d-inline-block align-top" alt="">How to choose a bias?</a></li>
-         <li><a href="./media.html" ><img src="./static/homepage/light7.png" width="70" height="70" class="d-inline-block align-top" alt="">Kpop Media Sites</a></li>
-        <li><a href="./pick.html"><img src="./static/homepage/bigBang.png" width="70" height="70" class="d-inline-block align-top" alt="">My picks</a></li>
-      </ul><br>
+  <div class="container-fluid">
+    <div class="row content wrapper">
+      <div class="col-sm-3 sidenav">
+        <img class="icon" src="./static/pictures/icon.png"> <!--hand picture with heart taken from: https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fvectors%2Ficon-korean-sign-of-heart-with-hand-little-korean-heart-caucasian-vector-id1079114470%3Fs%3D170x170&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fvector%2Fbig-finger-gm686990760-126518307&tbnid=ncTY4BLCNNZiMM&vet=12ahUKEwij7--BzvnnAhXsQd8KHXwXDWoQMygAegQIARAY..i&docid=ojZdxghIsORGXM&w=170&h=170&q=korean%20icon&hl=en&ved=2ahUKEwij7--BzvnnAhXsQd8KHXwXDWoQMygAegQIARAY -->
+        <h4 class="gi-3x">Topics</h4>
+        <ul class="nav nav-pills nav-stacked gi-2x">
+          <li><a href="./index.html">Home</a></li>
+          <li class="active"><a href="./about.html">What is Kpop?</a></li>
 
-     
-    </div>
+          <li> <a href="./kpop.html"> How Kpop Works?</a>
 
-    <div class="col-sm-9 main">
-      
-       <a class="btn btn-primary gi-2x forwardButton" href="./kpop.html" role="button">Next</a>
-       <a class="btn btn-primary gi-2x backButton" href="./index.html" role="button">Back</a>
+
+          <li><a href="./bias.html">How to choose a bias?</a></li>
+          <li><a href="./media.html">Kpop Media Sites</a></li>
+          
+        </ul><br>
+
+
+      </div>
+
+      <div class="col-sm-9 main backgroundImage">
+
+        <!--
+          message1 pic taken from:
+          https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F236x%2Fb5%2F7c%2F10%2Fb57c10ff4ef00937249f3b1ee650dee5--text-quotes-filler.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fsurayainsyirah%2Fpolyvore%2F&tbnid=22tV2vsds5nHNM&vet=12ahUKEwihncG90vnnAhWEBt8KHWqlAPUQMygAegUIARDhAQ..i&docid=-8z8jlf4OQRovM&w=236&h=236&q=oppa%20saranghae%20text%20bubble%20message&hl=en&ved=2ahUKEwihncG90vnnAhWEBt8KHWqlAPUQMygAegUIARDhAQ
+
+          message2 pic taken from:
+          https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.favpng.com%2F1%2F17%2F18%2Ftext-word-tumblr-quotation-speech-balloon-png-favpng-zQLG9m7fEEVntQbMzxzME0FhV.jpg&imgrefurl=https%3A%2F%2Ffavpng.com%2Fpng_view%2Fword-text-word-tumblr-quotation-speech-balloon-png%2FSQk1Qwk1&tbnid=yjCwHUuRv_aPSM&vet=12ahUKEwi3zNz50vnnAhXDC98KHRFtB4kQMygGegUIARDhAQ..i&docid=CNS1Sh_VgLcj_M&w=820&h=546&q=you%20got%20no%20jams%20text%20bubble%20message&hl=en&ved=2ahUKEwi3zNz50vnnAhXDC98KHRFtB4kQMygGegUIARDhAQ
+
+          message3 pic taken from:
+          https://www.google.com/imgres?imgurl=https%3A%2F%2Fih0.redbubble.net%2Fimage.292103487.1068%2Fst%252Csmall%252C215x235-pad%252C210x230%252Cf8f8f8.jpg&imgrefurl=https%3A%2F%2Fwww.redbubble.com%2Fshop%2Fkpop%2Btrash&tbnid=QNZ5UoTsv3UDHM&vet=12ahUKEwieoeaJ0_nnAhWmdN8KHRvZCAoQMygAegUIARDaAQ..i&docid=0SjgVaJPDQWfNM&w=210&h=230&itg=1&q=kpop%20trash%20%20text%20bubble%20message&hl=en&ved=2ahUKEwieoeaJ0_nnAhWmdN8KHRvZCAoQMygAegUIARDaAQ
+
+          message4 pic taken from:
+          https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F236x%2Fb1%2F23%2Fc5%2Fb123c59cc1006153d74a74f1f33e7580.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fjoselineyoyo1812%2Fblackpink%2F&tbnid=A4wf3zGbBS8p5M&vet=12ahUKEwjmmf-Y0_nnAhVLGt8KHThABzkQMygAegUIARC4AQ..i&docid=Ey0cxj0YPloNqM&w=236&h=258&itg=1&q=make%20em%20whistle%20like%20a%20missile%20bomb%20bomb%20text%20bubble%20message&hl=en&ved=2ahUKEwjmmf-Y0_nnAhVLGt8KHThABzkQMygAegUIARC4AQ
+
+          message5 pic taken from:
+         https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F236x%2Fa9%2F26%2F48%2Fa926481e6f3867399e8761d0478bc0fc.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fnamjoonzin%2Fadesivos-sticker%2F&tbnid=brY81sOM42VziM&vet=12ahUKEwi8iIOYz_nnAhXEHN8KHdPxDLkQMygBegQIARAb..i&docid=740vO-ucHOM2yM&w=236&h=226&itg=1&q=korean%20stickers%20black%20and%20white&hl=en&ved=2ahUKEwi8iIOYz_nnAhXEHN8KHdPxDLkQMygBegQIARAb
          
-   </div>  
+         bubbles pic taken from:
+         https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng2.cleanpng.com%2F20190527%2Fuzz%2Fkisspng-product-design-pink-m-font-aesthetic-sticker-by-marie-jane-5ceca9e9d3b5b1.1464517515590138658672.png&imgrefurl=https%3A%2F%2Fwww.cleanpng.com%2Fpng-product-design-pink-m-font-aesthetic-sticker-by-ma-7206184%2Fpreview.html&tbnid=su5o7ZPdaEIgnM&vet=12ahUKEwjQpsHG0_nnAhWxdt8KHZLICisQMygAegQIARAY..i&docid=Y0cZ3Wr9Y35yGM&w=2048&h=2048&q=darkness&hl=en&ved=2ahUKEwjQpsHG0_nnAhWxdt8KHZLICisQMygAegQIARAY
+        
+        -->
+        
+        <img class="imgStyle img1Location z3Index" src="./static/pictures/message1.png" alt="quote bubble saying: oppa saranghae ">
+       
+        <img class="imgStyle img2Location z3Index" src="./static/pictures/message2.png"  alt="quote buble saying: You got no jams">
+        <img class="img2Style img3Location z3Index" src="./static/pictures/message3.png" alt="quote bubble saying: kpop trash">
+        <img class="imgStyle img4Location z3Index" src="./static/pictures/message4.png" alt="quote bubble saying: Make' em whistle like a missile bomb bomb">
+        <img class="img3Style img5Location z3Index" src="./static/pictures/bubbles.png" alt="7 different size pink bubbles">
+        <img class="img2Style img6Location z3Index" src="./static/pictures/message5.png" alt="quote bubble saying: you don't know annyeonnaseyo" >
+        
 
 
-<footer class="container-fluid">
-  <p>Guide to Kpop</p>
-</footer>
+        <div class="box1Image box1Location"> </div>
+        <!-- Lisa pic taken from: https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn141.picsart.com%2F297793533227211.png&imgrefurl=https%3A%2F%2Fpicsart.com%2Fi%2Fsticker-blackpink-lisa-297793533227211&tbnid=ZgFIOCOLb3FjwM&vet=12ahUKEwikz9_Z0_nnAhWIneAKHS91DycQMygAegUIARCIAQ..i&docid=7uX5Z5bdOfq5pM&w=2289&h=2289&q=lisa%20png%20black%20pink&hl=en&ved=2ahUKEwikz9_Z0_nnAhWIneAKHS91DycQMygAegUIARCIAQ-->
+        <img class="z5Index personLocation" src="./static/pictures/lisa.png" alt="lisa posing from BlackPink" cite="">
+        <div class="box2Image box2Location">
+          <h1 class="textColor h1Style h1Location">What is Kpop?</h1> 
+            <blockquote cite="https://en.wikipedia.org/wiki/K-pop" class="blockquoteLocation blockquoteStyle">
+              <h5 class="gi-6x">"</h5>(abbreviation of korean pop; Korean: 케이팝) <br> is a genre of popular music originating in South Korea.
+              <br> The term Korean popular music describes a modern form of South Korean pop that is influenced by styles and genres from around the world, such as experimental, rock, jazz, gospel, hip hop, R&B, reggae, electronic dance, folk, country, and classical on top of its traditional Korean music roots.
+            </blockquote>   
 
-<!-- Optional JavaScript -->
+        </div>
+       
+
+        
+        <a class="btn btn-primary gi-2x forwardButton" href="./kpop.html" role="button">Next</a>
+        <a class="btn btn-primary gi-2x backButton" href="./index.html" role="button">Back</a>
+
+
+      </div>
+
+
+
+    </div>
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>

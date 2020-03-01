@@ -1,0 +1,162 @@
+    h1{ font-family: 'Bungee';}
+
+    h4,
+    p,
+    a {
+      font-family: 'Bubblegum Sans';
+    }
+
+    .row.content {
+      height: 1500px
+    }
+
+    .gi-15x{
+      font-size: 15em;
+    }
+    .gi-6x {
+      font-size: 6em;
+    }
+
+    .gi-5x {
+      font-size: 5em;
+    }
+
+    .gi-4x {
+      font-size: 4em;
+    }
+    .gi-3x {
+      font-size: 3em;
+    }
+
+    .gi-2x {
+      font-size: 2em;
+    }
+
+    .gi-1x {
+      font-size: 1m;
+    }
+
+    .sidenav {
+
+      background-color: lightcoral;
+      overflow-x: scroll;
+      height: 100%;
+      position: fixed;
+      z-index: 2;
+      top: 0; 
+      left: 0;
+    }
+
+  .backgroundImg{
+    height: 40vh;
+    min-height: 50px;
+    background-color: pink;
+
+  }
+
+
+    .img1Style{
+
+      width: 370px;
+      height: 370px;
+      border: 15px double darkcyan;
+
+    }
+
+    .img1Location{
+      position: absolute;
+      top: -7%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+    .icon{
+        height: 330px;
+        width:  330px;
+    }
+
+
+    .main {
+      background-color: whitesmoke;
+  
+      height: 100%;
+      width: 100%;
+      
+
+    }
+
+    .h1Location{
+      position: absolute;
+      top: 10%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+    
+    .h1Style{
+      z-index: 1;
+      color: whitesmoke;
+      text-shadow: 4px 4px black;
+
+    }
+
+    .icon {
+      height: 330px;
+      width: 330px;
+    }
+
+    .forwardButton {
+      position: absolute;
+      top: 95%;
+      left: 90%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .backButton {
+      position: absolute;
+      top: 95%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .textStyle a{
+      color: darkblue;
+      text-shadow: 1px 1px black;
+    }
+
+    body,
+    html,
+    .container-fluid {
+      height: 100%;
+      width: 100%;
+    }
+
+    .wrapper {
+      min-height: 400vh;
+      max-height: 408%;
+    }
+
+    main {
+    
+      overflow-y: auto;
+    }
+
+    @media all and (max-width: 60%) and (min-width: 30%) {
+      .sidenav{
+        min-width:720px;
+        
+      }
+
+      .main {
+        height: auto;
+        width: auto;
+        overflow-y: auto;
+
+      }
+    
+  }

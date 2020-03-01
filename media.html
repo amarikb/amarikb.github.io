@@ -1,133 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Guide to Kpop</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="./mediaStyle.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    h1,h4,p,a{
-       font-family: 'Bubblegum Sans';
-    }
-
-    .row.content {height: 1500px}
-
-    .gi-5x{font-size: 5em;}   
-
-    .gi-3x{font-size: 3em;} 
-
-    .gi-2x{font-size: 2em;} 
-
-    .gi-1x{font-size: 1m;} 
-
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-
-      background-color: lightcoral;
-      height: 100%;
-    }
-
-
-    .main{
-        background-color: linen;
-        height: 100%;
-       
-    }
-    .icon{
-        height: 330px;
-        width:  330px;
-    }
-   
-  .forwardButton{
-     position: absolute;
-     top: 95%;
-     left: 90%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-  }
-
-  .backButton{
-     position: absolute;
-     top: 95%;
-     left: 10%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-
-  }
- 
-
-
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media all and (max-width: 60%) and (min-width: 30%) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-
-      .main{
-           height: auto;
-           width: auto;
-
-      }
-
-
-
-    }
-  </style>
 </head>
+
 <body>
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <img class="icon" src="./static/homepage/icon.png">
-      <h4 class="gi-3x">Topics</h4>
-      <ul class="nav nav-pills nav-stacked gi-2x textColor">
-        <li><a href="./index.html"> <img src="./static/homepage/heart.png" width="50" height="50" class="d-inline-block align-top" alt="">Home</a></li>
-        <li><a href="./about.html"><img src="./static/homepage/ikon.png" width="70" height="70" class="d-inline-block align-top" alt="">What is Kpop?</a></li>
+  <div class="container-fluid">
+    <div class="row content wrapper">
+      <div class="col-sm-3 sidenav">
+        <img class="icon" src="./static/pictures/icon.png"> <!--hand picture with heart taken from: https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fvectors%2Ficon-korean-sign-of-heart-with-hand-little-korean-heart-caucasian-vector-id1079114470%3Fs%3D170x170&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fvector%2Fbig-finger-gm686990760-126518307&tbnid=ncTY4BLCNNZiMM&vet=12ahUKEwij7--BzvnnAhXsQd8KHXwXDWoQMygAegQIARAY..i&docid=ojZdxghIsORGXM&w=170&h=170&q=korean%20icon&hl=en&ved=2ahUKEwij7--BzvnnAhXsQd8KHXwXDWoQMygAegQIARAY -->
+        <h4 class="gi-3x">Topics</h4>
+        <ul class="nav nav-pills nav-stacked gi-2x">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">What is Kpop?</a></li>
+
+          <li> <a href="./kpop.html"> How Kpop Works?</a>
+
+
+          <li><a href="./bias.html">How to choose a bias?</a></li>
+          <li class="active"><a href="./media.html">Kpop Media Sites</a></li>
+          
+        </ul><br>
+
+
+      </div>
+
+      <div class="col-sm-9 main backgroundImage">
+        <div class="square squareLocation">
+         <ul class="gi-3x listLocation textStyle ">
+              <li><a href="https://www.vlive.tv/home/new" target="_blank"><img src="https://image.flaticon.com/icons/svg/2111/2111823.svg" alt="VLIVE Logo">VLIVE</a></li>
+              <li><a href="https://www.soompi.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Soompi-Logo.png" alt="Soompi logo">Soompi</a></li>
+              <li><a href="https://www.allkpop.com/" target="_blank"><img src="https://www.allkpop.com/img/avatar3.png" alt="allkpop logo">allkpop</a></li>
+              <li> <a href="https://klyrics.net/" target="_blank"><img src="https://i0.wp.com/klyrics.net/wp-content/uploads/2018/12/cropped-Klyricsicon-8.png?fit=240%2C240&ssl=1" alt="kylrics logo">klyrics</a></li>
+              <li> <a class="kImgStyle" href="https://kprofiles.com/" target="_blank"><img src="./static/homepage/kprofiles.png" cite="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEXQlNlqPIdjNoJhM4DJjdLOk9jWmd7Ul9xmOIRiNIFlN4NzRI7LkNWxer93SJGTYKe9hMmCUpqIV55tP4mjbrR8TZWbZ61YK3qocri2fsOOW6OEU5urdru8hMnEic9dL35ueqO2AAADoElEQVR4nO3c3W6jMBCGYRJSCGn6/7/tJvd/l1taVdrK8xnPSTqz+z7HQeITGcBjm64DAAAAAAAAAAAAAAAAAAAAAAAAAAAA/nMbU+2IcW8fs3DYj3nqDU+Vcx0PR+uQ+ajr0522w3pl6GsJ76wj5oMuxtOdtoM34XC7tQOuH4cTnraDM+Hw3NsBtzdBAzoTjodJ/EfvTnrWHs6EqginmPfRmSuhLML+JeZdZuZJKItwuo9ahJ0r4XhQd5nbwAFd11AV4Xncv2jnSTi8iiLc7U9+1h7NCYd78aDof4e+hM0JZRFOz5GLsHNcQzvfavcreMDWhKoIt5fRAzYmlEW4OvuRs/ZoSjheiyLsr2PfZWZt11BcwP4t/H+0LeFwYxfh+ipBwJaEw735o9X2IUPAhoSyCFc/dtIuDddQ5JsO8e8ys8WEqgijNp4KSwlVEYZtPBUWEo6/7SKM23gqLF1D8bJ2l+Qv2i0lHB7EkzBu46lQTTg82kUYufFUqCVURRi68VSoJTwTRRi68VSoJFRFGLvxVNAJh0d7TLiN3XgqyITqdTTDkPAbmVAUYR+98VRQCUe7COM3ngoioSjCBI2ngp1wr15H4zeeCmbCaSOKMMmQ8Bv7tezcDpih8VSwE5pyNJ4K7QmTNJ4K7QnjrkWoa064S1mEnetfmmjU+zfHnSbZmOKLI2GyceEXR8JkY/svnoT5Rk4zO6FaV5Jt9DszE64POxHxMt9FFGOLFzHf9A+ND69EgeZ7+1Zj/OFS/E/T3W1kn2Yv77LJRsG613ahViImG2NU+qVX4oaabJxY63mrUjxmmf79UJu32KinYpYp/A/VuSdViqlGw/X5Q1WKiSa5F+aAR7vp9v4/TbNQYWkef6OeinmmgZfWYshSDLyH5LvF9TSyFLM0NRbXRMlSzNLUWF7XtlHLg5M0NRrWJspSjL4P4VPL+lJVitH3knxqWSM8qhfUFC3UpnXe8qmYoanRtlZfl2L8hQuN+y1kKcZvajTumdGlGH5qv3Xfk3wqhl+e0bx3TZZi9KZG+/5DXYpvoUuxfQ+pfEEN3tRw7AOWT8XYe0s8e7llKYZuobr248tSjNzUcH1TYTwX27kj76DxfRdDPhUDNzWcX/6QpRi3her9Po0sxe1r0FL0fmNIl2LUu437O1G6FIO2UI+TofqtrwvzkHfr4+F0593uzFQ7YrQPmWVo2wAAAAAAAAAAAAAAAAAAAAAAAAAAAACA5Q/mYiaqLK3CAgAAAABJRU5ErkJggg==" alt="kprofiles logo">kprofiles</a></li>
       
-         <li> <a href="./kpop.html"> <img src="./static/homepage/light3.png" width="70" height="70" class="d-inline-block align-top" alt=""> How Kpop Works?</a>
-              
-        
-        <li><a href="./bias.html"><img src="./static/homepage/blackpink.png" width="70" height="70" class="d-inline-block align-top" alt="">How to choose a bias?</a></li>
-         <li class="active"><a href="./media.html" ><img src="./static/homepage/light7.png" width="70" height="70" class="d-inline-block align-top" alt="">Kpop Media Sites</a></li>
-        <li><a href="./pick.html"><img src="./static/homepage/bigBang.png" width="70" height="70" class="d-inline-block align-top" alt="">My picks</a></li>
-      </ul><br>
+            </ul>
 
-     
+        </div>
+        <h1 class="h1Location gi-6x h1Style">Kpop Media Sites</h1>
+        <h3 class="h4Location h4Style">Head over to each site by clicking the names</h3>
+        <!--main logo take from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicsart.com%2Fen_ru%2Fi%2Fimage-kpop-background-backgrounds-freetoedit-295777864033201&psig=AOvVaw2chPyeJnEBw2QM7etEv6nu&ust=1583166569578000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiwsJrZ-ecCFQAAAAAdAAAAABAD-->
+        <img class="logoLocation" src="./static/pictures/logo.png" alt="" cite=""> 
+        <a class="btn btn-primary gi-2x backButton" href="./bias.html" role="button">Back</a>
+
+
+      </div>
+
+
+
     </div>
-
-    <div class="col-sm-9 main">
-      <a class="btn btn-primary gi-2x forwardButton" href="./pick.html" role="button">Next</a>
-      <a class="btn btn-primary gi-2x backButton" href="./bias.html" role="button">Back</a>
-         
-   </div>  
-
-
-<footer class="container-fluid">
-  <p>Guide to Kpop</p>
-</footer>
-
-<!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>

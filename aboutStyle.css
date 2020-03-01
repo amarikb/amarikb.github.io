@@ -1,0 +1,276 @@
+    h1,
+    h4,
+    a,
+    p{
+      font-family: 'Bubblegum Sans';
+
+    }
+
+    .icon{
+        height: 330px;
+        width:  330px;
+    }
+
+    .h1Style{
+       font-family: 'Shojumaru';
+    }
+
+    .textColor{
+        color: slateblue;
+        text-shadow: 3px 3px black;
+    }
+
+    .pStyle{
+      text-shadow: 1px 1px black;
+    }
+
+    .row.content {
+      height: 1500px;
+    }
+    .gi-6x {
+      font-size: 6em;
+    }
+
+    .gi-5x {
+      font-size: 5em;
+    }
+
+    .gi-4x {
+      font-size: 4em;
+    }
+    .gi-3x {
+      font-size: 3em;
+    }
+
+    .gi-2x {
+      font-size: 2em;
+    }
+
+    .gi-1x {
+      font-size: 1em;
+    }
+
+    
+   .z3Index{
+     z-index: 3;
+   }
+
+   .z5Index{
+     z-index: 5;
+   }
+
+
+    
+    .sidenav {
+
+      background-color: lightcoral;
+      overflow-x: scroll;
+      height: 100%;
+      position: fixed;
+      z-index: 2;
+      top: 0; 
+      left: 0;
+    }
+
+
+   .blockquoteStyle{
+      font-weight: bold;
+    }
+
+    .blockquoteLocation{
+      
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    } 
+
+    .personLocation{
+      
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        margin-right: -50%;
+       transform: translate(-50%, -50%);
+
+       
+    }
+  
+    .h1Location{
+      position: absolute;
+      top: 10%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .main {
+      background-color: linen;
+      height: 100%;
+      width: 100%;
+      
+
+    }
+
+    .backgroundImage {
+      background-color: thistle;
+    }
+
+    .box1Image{
+      height: 400px;
+      width: 600px;
+      border: 10px solid white;
+
+    }
+    
+
+    .box2Image{
+      height: 400px;
+      width: 600px;
+      background-color: lightblue;
+
+    }
+
+    .box1Location{
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      
+
+    }
+
+    .box2Location{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+
+    }
+
+    .imgStyle{
+        width: 150px;
+        height: 150px;
+       
+        
+    }
+
+    .img2Style{
+      width: 250px;
+      height: 250px;
+    
+      
+    }
+
+   .img3Style{
+      width: 300px;
+      height: 300px;
+      
+
+   }
+
+    .img1Location{
+      position: absolute;
+      top: 65%;
+      left: 30%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .img2Location{
+      position: absolute;
+      top: 60%;
+      left: 60%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .img3Location{
+      position: absolute;
+      top: 10%;
+      left: 40%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .img4Location{
+      position: absolute;
+      top: 23%;
+      left: 86%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .img5Location{
+      position: absolute;
+      top: 17%;
+      left: 66%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .img6Location{
+      position: absolute;
+      top: 75%;
+      left: 91%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+    
+
+    
+    .forwardButton {
+      position: absolute;
+      top: 95%;
+      left: 90%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .backButton {
+      position: absolute;
+      top: 95%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    
+    body,
+    html,
+    .container-fluid {
+      height: 100%;
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      max-height: 108%;
+    }
+
+    main {
+      max-height: 100%;
+      overflow-y: auto;
+    }
+
+
+    @media all and (max-width: 60%) and (min-width: 30%) {
+      .sidenav{
+        min-width:720px;
+        
+      }
+
+      .main {
+        height: auto;
+        width: auto;
+        overflow-y: auto;
+
+      }
+    
+  }

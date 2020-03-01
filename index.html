@@ -7,312 +7,43 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link href="./homepageStyle.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    h1,h4,p,a{
-       font-family: 'Bubblegum Sans';
-    }
-
-    .row.content {height: 1500px}
-
-    .gi-5x{font-size: 5em;}   
-
-    .gi-3x{font-size: 3em;} 
-
-    .gi-2x{font-size: 2em;} 
-
-    .gi-1x{font-size: 1m;} 
-
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-
-      background-color: lightcoral;
-      height: 100%;
-    }
-
-    .triangle{
-        font-family: 'Bubblegum Sans';
-        color: yellow;
-    }
-    
-    .textColor{
-        color: black;
-    }
-
-    .main{
-        background-color: linen;
-        height: 100%;
-       
-    }
-    .icon{
-        height: 330px;
-        width:  330px;
-    }
-
-    .triangleStyle{
-          width: 0; 
-         height: 0; 
-         border-left: 200px solid transparent;
-         border-right: 200px solid transparent;
-         border-top: 200px solid darkcyan;
-         transform: rotate(170deg);
-    
-    }
-
-    .triangle h2{
-            position: absolute;
-            top: 10%;
-            left: 48%;
-            margin-right: -50%;
-            transform: translate(-50%, -50%);
-            font-size: 50px;
-            text-shadow: 2px 2px black;
-            z-index: 13;
-
-
-
-    }
-
-    .triangle h3{
-         position: absolute;
-         top: 14%;
-         left: 48%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-    
-         font-size: 50px;
-         color: black;
-         background-color: yellow;
-        border: 5px solid black;
-        border-radius: 10px;
-        z-index:12;
-        font-family: 'Press Start 2P';
-        
-    }
-
-    .triLocation{
-         position: absolute;
-         top: 5%;
-         left: 30%;
-         margin-right: -50%;
-         z-index: 12;
-        
-    }
-
- .mainPic1{
-         width: 300px;
-         height: 300px;
-
-         position: absolute;
-         top: 48%;
-         left: 30%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-
-  }
-
-.mainPic2{
-         width: 350px;
-         height: 400px;
-
-         position: absolute;
-         top: 50%;
-         left: 70%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-
-  }
-
-  .mainPic3{
-         width: 350px;
-         height: 350px;
-
-         position: absolute;
-         top: 71%;
-         left: 30%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-
-  }
-
-  .mainPic4{
-         width: 500px;
-         height: 230px;
-
-         position: absolute;
-         top: 91%;
-         left: 50%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-
-  }
-
-  .mainPic5{
-         width: 390px;
-         height: 250px;
-
-         position: absolute;
-         top: 73%;
-         left: 70%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-
-  }
-
-  
-
-
- .ellipsesLocation{
-         position: absolute;
-         top: 25%;
-         left: 50%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-
-  }
-
-  .swiggleLocation1{
-     position: absolute;
-     top: 5%;
-     left: 80%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-
-  }
-
-  .swiggleLocation2{
-     position: absolute;
-     top: 15%;
-     left: 25%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-
-
-
-  }
-  .swiggleLocation3{
-    position: absolute;
-    top: 20%;
-    left: 80%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    
-  }
-  .swiggleLocation4{
-    position: absolute;
-    top: 13%;
-    left: 90%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .swiggleLocation5{
-     position: absolute;
-     top: 20%;
-     left: 10%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-    
-  }
-
-  .h1Location{
-    position: absolute;
-     top: 20%;
-     left: 50%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-  }
-
-  .pLocation{
-    text-align: justify;
-    width: 700px;
-    font-size: 20px;
-    position: absolute;
-     top: 32%;
-     left: 53%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-
-  }
-  .buttonLocation{
-     position: absolute;
-     top: 95%;
-     left: 90%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
-  }
-
-  .borderStyle{
-    border: 5px solid black;
-    border-radius: 10px;
-  }
-
-
-
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media all and (max-width: 60%) and (min-width: 30%) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-
-      .main{
-           height: auto;
-           width: auto;
-
-      }
-
-      .triangle h2,h3{
-          height: auto;
-          width: auto;
-          position: fixed;
-      }
-
-
-
-    }
-  </style>
 </head>
+
 <body>
 
 <div class="container-fluid">
   <div class="row content">
     <div class="col-sm-3 sidenav">
-      <img class="icon" src="./static/homepage/icon.png">
+      <img class="icon" src="./static/pictures/icon.png"> <!--hand picture with heart taken from: https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fvectors%2Ficon-korean-sign-of-heart-with-hand-little-korean-heart-caucasian-vector-id1079114470%3Fs%3D170x170&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fvector%2Fbig-finger-gm686990760-126518307&tbnid=ncTY4BLCNNZiMM&vet=12ahUKEwij7--BzvnnAhXsQd8KHXwXDWoQMygAegQIARAY..i&docid=ojZdxghIsORGXM&w=170&h=170&q=korean%20icon&hl=en&ved=2ahUKEwij7--BzvnnAhXsQd8KHXwXDWoQMygAegQIARAY -->
       <h4 class="gi-3x">Topics</h4>
-      <ul class="nav nav-pills nav-stacked gi-2x textColor">
-        <li class="active"><a href="./index.html"> <img src="./static/homepage/heart.png" width="50" height="50" class="d-inline-block align-top" alt="">Home</a></li>
-        <li><a href="./about.html"><img src="./static/homepage/ikon.png" width="70" height="70" class="d-inline-block align-top" alt="">What is Kpop?</a></li>
+      <ul class="nav nav-pills nav-stacked gi-2-5x textColor">
+        <li class="active"><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">What is Kpop?</a></li>
       
-         <li> <a href="./kpop.html"> <img src="./static/homepage/light3.png" width="70" height="70" class="d-inline-block align-top" alt=""> How Kpop Works?</a>
+         <li> <a href="./kpop.html"> How Kpop Works?</a>
               
         
-        <li><a href="./bias.html"><img src="./static/homepage/blackpink.png" width="70" height="70" class="d-inline-block align-top" alt="">How to choose a bias?</a></li>
-         <li><a href="./media.html" ><img src="./static/homepage/light7.png" width="70" height="70" class="d-inline-block align-top" alt="">Kpop Media Sites</a></li>
-        <li><a href="./pick.html"><img src="./static/homepage/bigBang.png" width="70" height="70" class="d-inline-block align-top" alt="">My picks</a></li>
+        <li><a href="./bias.html">How to choose a bias?</a></li>
+         <li><a href="./media.html" >Kpop Media Sites</a></li>
+        
       </ul><br>
 
      
     </div>
 
     <div class="col-sm-9 main">
-        <img class="gi-5x swiggleLocation1" src="./static/swiggle1.png">
-        <img class="gi-5x swiggleLocation2" src="./static/swiggle2.png">
-        <img class="gi-5x swiggleLocation3" src="./static/swiggle3.png">
-        <img class="gi-5x swiggleLocation4" src="./static/swiggle4.png">
-        <img class="gi-5x swiggleLocation5" src="./static/swiggle5.png">
-        <img class="gi-5x" src="./static/swiggle6.png">
+        <!--swiggle1, swiggle2, swiigle4,swiggle5,swiggle6 is taken from here:
+          https://assets.justinmind.com/wp-content/uploads/2018/05/top-10-worst-90s-website-designs-header.png 
+        -->
+        <img class="gi-5x swiggleLocation1" alt="pink circle with a blue swiggle on top" src="./static/pictures/swiggle1.png">
+        <img class="gi-5x swiggleLocation2" alt="red swiggle line"  src="./static/pictures/swiggle2.png">
+        <img class="gi-5x swiggleLocation3"  alt="a yellow circle" cite="" src="./static/pictures/swiggle3.png">
+        <img class="gi-5x swiggleLocation4" alt="a orange 2 pointed crown" src="./static/pictures/swiggle4.png">
+        <img class="gi-5x swiggleLocation5" alt="a blue swiggle line"  src="./static/pictures/swiggle5.png">
+        <img class="gi-5x" alt="a mustard color half circle"  src="./static/pictures/swiggle6.png">
         <span class="triangleStyle triLocation">
         </span>
         <div class="triangle">
@@ -322,15 +53,19 @@
         <h1 class="h1Location">A beginner's guide to kpop</h1>
        <span class=" glyphicon glyphicon-option-horizontal gi-5x ellipsesLocation" ></span>
        <p class="pLocation">New to Kpop? What to know what Kpop is? What it entails? How long do the members train before debut? What are groups and subunits? What are the rules of being under an entertainment for example is dating against the rules? Here’s a beginner’s guide for everything you need to know about Kpop!</p>
-       <img src="./static/homepage/bigbang.gif" alt="..." class="img-thumbnail borderStyle mainPic1">
+       <img src="./static/pictures/bigbang.gif" alt="the group bigbang dance practice" cite="https://i.makeagif.com/media/7-13-2015/67zjwc.gif" class="img-thumbnail borderStyle mainPic1">
        
-       <img src="./static/homepage/itzy.jpg" alt="..." class="img-thumbnail borderStyle  mainPic2">
+       <img src="./static/pictures/itzy.jpg" alt="the group itzy posed at the end of a dance performance (dalla dalla)" cite="https://kpopping.com/uploads/documents/ITZY_7.jpeg" class="img-thumbnail borderStyle  mainPic2">
        
-       <img src="./static/homepage/trainee.jpg" alt="..." class="img-thumbnail borderStyle  mainPic3">
+       <!--Trainee pic taken from: 
+          https://www.google.com/imgres?imgurl=https%3A%2F%2Fup.gc-img.net%2Fpost_img_web%2F2018%2F10%2F10d2a532860a5e2e45f43ea10f02435e_407.jpeg&imgrefurl=https%3A%2F%2Fgirlschannel.net%2Ftopics%2F1861618%2F3%2F&tbnid=S-TqUjtV0_5IHM&vet=12ahUKEwjLss_6zvnnAhUoSN8KHY2xCscQMygAegQIARA0..i&docid=ghirHJvYHdWuCM&w=1280&h=720&itg=1&q=kpop%20idol%20dancing&hl=en&ved=2ahUKEwjLss_6zvnnAhUoSN8KHY2xCscQMygAegQIARA0
+      -->
+       <img src="./static/pictures/trainee.jpg" alt=" kpop group training" cite="" class="img-thumbnail borderStyle  mainPic3">
      
       
-       <img src="./static/homepage/maxresdefault.jpg" alt="..." class="img-thumbnail borderStyle  mainPic4">
-       <img src="./static/homepage/dance.gif" alt="..." class="img-thumbnail borderStyle mainPic5">
+       <img src="./static/pictures/maxresdefault.jpg" alt="group NCT U dancing in a music video (the 7th sense)" cite="https://i.ytimg.com/vi/WMzuzTc_nI8/maxresdefault.jpg" class="img-thumbnail borderStyle  mainPic4">
+       <img src="./static/pictures/dance.gif" alt="the group blackpink dancing to their song(playing with fire)" cite="https://thumbs.gfycat.com/ResponsibleInfatuatedConey-size_restricted.gif" class="img-thumbnail borderStyle mainPic5">
+
        <a class="btn btn-primary gi-2x buttonLocation" href="about.html" role="button">Next</a>
        </div>  
 </div>
