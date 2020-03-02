@@ -10,6 +10,10 @@
       height: 1500px
     }
 
+    .gi-20x{
+      font-size: 20em;
+    }
+
     .gi-15x{
       font-size: 15em;
     }
@@ -28,13 +32,27 @@
       font-size: 3em;
     }
 
+    .gi-2-5x{
+      font-size: 2.5em;
+    }
+
     .gi-2x {
       font-size: 2em;
     }
 
-    .gi-1x {
-      font-size: 1m;
+    .gi-1-8x{
+      font-size: 1.8em;
     }
+
+    .gi-1-3x{
+      font-size: 1.3em;
+    }
+
+    .gi-1x {
+      font-size: 1em;
+    }
+
+    
 
     .sidenav {
 
@@ -47,15 +65,69 @@
       left: 0;
     }
 
+  .underline{
+    text-decoration: underline;
+
+  }
+
+  .pStyle{
+      word-wrap: break-word;
+      width: 600px;
+      
+  }
+
+  .pStyle2{
+      word-wrap: break-word;
+      width: 840px;
+      
+  }
+
+  .listStyle{
+      word-wrap: break-word;
+      width: 800px;
+      
+  }
+
+  .square{
+    height: 550px;
+    width: 900px;
+    background-color: palevioletred;
+
+  }
+
+
+
+  .textShadow{
+    text-shadow: 1px 1px black;
+
+  }
+
+  .textStyle1{
+     color: darkgoldenrod;
+     
+  }
+
+  .textStyle2{
+     color: darkorchid;
+     
+  }
+
+  .textStyle3{
+     color: darkslateblue;
+     
+  }
+
+  
+
   .backgroundImg{
-    height: 40vh;
-    min-height: 50px;
+    height: 50vh;
+    min-height: 40px;
     background-color: pink;
 
   }
 
 
-    .img1Style{
+  .img1Style{
 
       width: 370px;
       height: 370px;
@@ -63,13 +135,25 @@
 
     }
 
-    .img1Location{
-      position: absolute;
-      top: -7%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50,-50);
+  .img2Style{
+
+      width: 500px;
+      height: 500px;
+
     }
+
+    .img3Style{
+
+      width: 300px;
+      height: 300px;
+    }
+
+    .img4Style{
+
+      width: 350px;
+      height: 350px;
+    }
+
 
     .icon{
         height: 330px;
@@ -86,14 +170,7 @@
 
     }
 
-    .h1Location{
-      position: absolute;
-      top: 10%;
-      left: 35%;
-      margin-right: -50%;
-      transform: translate(-50,-50);
-
-    } 
+    
     
     .h1Style{
       z-index: 1;
@@ -102,6 +179,7 @@
 
     }
 
+
     .icon {
       height: 330px;
       width: 330px;
@@ -109,7 +187,7 @@
 
     .forwardButton {
       position: absolute;
-      top: 95%;
+      top: 97%;
       left: 90%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
@@ -117,17 +195,13 @@
 
     .backButton {
       position: absolute;
-      top: 95%;
+      top: 97%;
       left: 35%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
 
     }
 
-    .textStyle a{
-      color: darkblue;
-      text-shadow: 1px 1px black;
-    }
 
     body,
     html,
@@ -137,8 +211,8 @@
     }
 
     .wrapper {
-      min-height: 400vh;
-      max-height: 408%;
+      min-height: 800vh;
+      max-height: 808%;
     }
 
     main {

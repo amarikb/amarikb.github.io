@@ -1,0 +1,337 @@
+.ellipsesLocation1{
+    position: absolute;
+    top: 15%;
+    left: 58%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+ }
+
+  .ellipsesLocation2{
+    position: absolute;
+    top: 31%;
+    left: 58%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+ }
+
+    .img1Location{
+      position: absolute;
+      top: -5%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+
+    .img2Location{
+      position: absolute;
+      top: 2%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+
+
+     .img3Location{
+      position: absolute;
+      top: 1%;
+      left: 68%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+
+    .img5Location{
+      z-index: 1;
+      position: absolute;
+      top: 17%;
+      left: 75%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+
+    .img6Location{
+      z-index: 1;
+      position: absolute;
+      top: 26%;
+      left: 73%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+    
+    .h1Location1{
+      position: absolute;
+      top: 13%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+
+
+    .h1Location2{
+      position: absolute;
+      top: 3%;
+      left: 33%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+
+    .h1Location3{
+      position: absolute;
+      top: 16%;
+      left: 43%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+
+    .h1Location4{
+      position: absolute;
+      top: 32%;
+      left: 43%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+
+    .h3Location1{
+      position: absolute;
+      top: 34%;
+      left: 43%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+
+    .h3Location2{
+      position: absolute;
+      top: 57%;
+      left: 43%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+
+    .h3Location3{
+      position: absolute;
+      top: 88%;
+      left: 35%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    } 
+
+     .h3Location4{
+       position: absolute;
+       top: 6%;
+       left: 65%;
+       margin-right: -50%;
+       transform: translate(-50,-50);
+       
+    }
+
+    .h4Location1{
+       position: absolute;
+       top: 35%;
+       left: 30%;
+       margin-right: -50%;
+       transform: translate(-50,-50);
+
+    }
+
+    .h4Location2{
+       position: absolute;
+       top: 45%;
+       left: 30%;
+       margin-right: -50%;
+       transform: translate(-50,-50);
+
+    }
+
+    .h4Location3{
+       position: absolute;
+       top: 58%;
+       left: 30%;
+       margin-right: -50%;
+       transform: translate(-50,-50);
+
+    }
+
+    .h4Location4{
+       position: absolute;
+       top: 78%;
+       left: 30%;
+       margin-right: -50%;
+       transform: translate(-50,-50);
+
+    }
+
+    .pLocation1{
+      position: absolute;
+      top: 7.5%;
+      left: 58%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+     .pLocation2{
+      position: absolute;
+      top: 36%;
+      left: 28%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+     .pLocation3{
+      position: absolute;
+      top: 46.5%;
+      left: 33%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+    .pLocation4{
+      position: absolute;
+      top: 59%;
+      left: 33%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+    .pLocation5{
+      position: absolute;
+      top: 79%;
+      left: 33%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+    .pLocation6{
+      position: absolute;
+      top: 90%;
+      left: 33%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
+
+
+
+     .video1Location{
+      position: absolute;
+      top: 5%;
+      left: 30%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+     .video2Location{
+      position: absolute;
+      top: 33%;
+      left: 79%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+     .video3Location{
+      position: absolute;
+      top: 38%;
+      left: 79%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+    .video4Location{
+      position: absolute;
+      top: 48%;
+      left: 30%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+    .video5Location{
+      position: absolute;
+      top: 48%;
+      left: 65%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+    .video6Location{
+      position: absolute;
+      top: 66%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+    .video7Location{
+      position: absolute;
+      top: 70%;
+      left: 75%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+    .video8Location{
+      position: absolute;
+      top: 60%;
+      left: 30%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+    .video9Location{
+      position: absolute;
+      top: 80%;
+      left: 30%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+
+    .video10Location{
+      position: absolute;
+      top: 80%;
+      left: 65%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    
+    }
+    .squareLocation{
+      position: absolute;
+      top: 25%;
+      left: 60%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .listLocation{
+      position: absolute;
+      top: 38%;
+      left: 25%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+
+    }
+
+    .audioLocation{
+      position: absolute;
+      top: 65%;
+      left: 63%;
+      margin-right: -50%;
+      transform: translate(-50,-50);
+    }
