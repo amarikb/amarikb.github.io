@@ -225,7 +225,7 @@
 
      .video1Location{
       position: absolute;
-      top: 5%;
+      top: 8%;
       left: 30%;
       margin-right: -50%;
       transform: translate(-50,-50);
@@ -242,7 +242,7 @@
 
      .video3Location{
       position: absolute;
-      top: 38%;
+      top: 39%;
       left: 79%;
       margin-right: -50%;
       transform: translate(-50,-50);
@@ -251,7 +251,7 @@
 
     .video4Location{
       position: absolute;
-      top: 48%;
+      top: 50%;
       left: 30%;
       margin-right: -50%;
       transform: translate(-50,-50);
@@ -260,7 +260,7 @@
 
     .video5Location{
       position: absolute;
-      top: 48%;
+      top: 50%;
       left: 65%;
       margin-right: -50%;
       transform: translate(-50,-50);
@@ -270,7 +270,7 @@
     .video6Location{
       position: absolute;
       top: 66%;
-      left: 50%;
+      left: 53%;
       margin-right: -50%;
       transform: translate(-50,-50);
     
@@ -287,7 +287,7 @@
 
     .video8Location{
       position: absolute;
-      top: 60%;
+      top: 63%;
       left: 30%;
       margin-right: -50%;
       transform: translate(-50,-50);
@@ -330,7 +330,7 @@
 
     .audioLocation{
       position: absolute;
-      top: 65%;
+      top: 63%;
       left: 63%;
       margin-right: -50%;
       transform: translate(-50,-50);
